@@ -1,0 +1,23 @@
+.container {
+  padding-left: -10px;
+  margin-left: 120px;
+}
+
+.btn-start {
+  margin-left: 35px;
+}
+
+@media (max-width: 500px) {
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+  .navbar h1 {
+    margin: 8px 0px;
+    padding: 6px 12px;
+  }
+  .container {
+    justify-content: center;
+    margin-left: 0px;
+  }
+}
